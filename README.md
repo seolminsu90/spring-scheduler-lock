@@ -7,4 +7,9 @@
 
 [github][ref]
 
+---
+
+만약 동적으로 스케쥴러를 구현해야 할 경우 위 방법으로는 처리가 안 된다.
+SchedulerExecuter를 동작시키는 빈을 직접 구현하여 등록하고, Quartz와 DB를 연동하여 멀티인스턴스를 대응할 수 있다. 자세한건 쓸 일 있을때 찾아보기
+
 [ref]: https://github.com/lukas-krecan/ShedLock
